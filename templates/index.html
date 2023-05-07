@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <style>
-        .main-header{
-            color: blue;
-        }
-    </style>
-</head>
-<body>
-{% include 'menu.html' %}
+{% extends 'base.html' %}
+{% block content %}
 <h1 class="main-header">"Изучаем django"</h1>
 <strong style="color: red">Автор</strong>: <i>{{ name }} {{ surname }}</i>
-</body>
-</html>
+{% endblock %}

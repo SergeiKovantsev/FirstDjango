@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-{% include 'menu.html' %}
+{% extends 'base.html' %}
+{% block content %}
     Имя:     <b>{{ author.name }}</b><br>
     Фамилия: <b>{{ author.surname }}</b><br>
     телефон: <b>{{ author.phone }}</b><br>
     email:   <b>{{ author.email }}</b>
-</body>
-</html>
+{% endblock %}
