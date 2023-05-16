@@ -14,7 +14,7 @@
     "pk": 2,
     "fields": {
       "name": "Яблоко",
-      "brand": "apple",
+      "brand": "Apple",
       "count": 100,
       "description": "Базовое описание"
     }
@@ -23,9 +23,9 @@
     "model": "MainApp.item",
     "pk": 3,
     "fields": {
-      "name": "Куртка",
-      "brand": "armani",
-      "count": 5,
+      "name": "Кепка",
+      "brand": "Reebok",
+      "count": 0,
       "description": "Базовое описание"
     }
   },
@@ -33,48 +33,8 @@
     "model": "MainApp.item",
     "pk": 4,
     "fields": {
-      "name": "Футболка",
-      "brand": "reebok",
-      "count": 50,
-      "description": "Базовое описание"
-    }
-  },
-  {
-    "model": "MainApp.item",
-    "pk": 5,
-    "fields": {
-      "name": "Носки",
-      "brand": "nike",
-      "count": 200,
-      "description": "Базовое описание"
-    }
-  },
-  {
-    "model": "MainApp.item",
-    "pk": 6,
-    "fields": {
-      "name": "Трусы",
-      "brand": "trusardi",
-      "count": 100,
-      "description": "Базовое описание"
-    }
-  },
-  {
-    "model": "MainApp.item",
-    "pk": 7,
-    "fields": {
-      "name": "Кепка",
-      "brand": "nike",
-      "count": 0,
-      "description": "Базовое описание"
-    }
-  },
-  {
-    "model": "MainApp.item",
-    "pk": 8,
-    "fields": {
       "name": "Шуба",
-      "brand": "norka",
+      "brand": "Ice",
       "count": 10,
       "description": "Описание шубы"
     }
