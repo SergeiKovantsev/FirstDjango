@@ -5,17 +5,18 @@ from MainApp.models import Item, Color
 
 author = {
     "name": "Сергей",
-    "surname": "Кованцев",
+    "surname": "Алексеевич",
+    "family": "Кованцев",
     "phone": "8-961-298-50-49",
     "email": "s.kovantsev@gmail.com",
 }
-
 
 # Create your views here.
 def home(request):
     context = {
         "name": author['name'],
-        "surname": author['surname']
+        "surname": author['surname'],
+        "family": author['family']
     }
     return render(request, 'index.html', context)
 
@@ -72,4 +73,5 @@ def item_create(request):
         for color_id in colors_id:
             color = Color.objects.get(id=color_id)
             item.colors.add(color)
+            # item.save()
         return redirect('items-list')
